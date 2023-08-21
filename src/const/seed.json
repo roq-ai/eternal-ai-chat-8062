@@ -1,0 +1,2692 @@
+[
+  {
+    "role": [
+      {
+        "id": "4e577a80-5b46-4c13-bc8f-544acf4da97c",
+        "created_at": "2023-08-21T01:46:01.496Z",
+        "updated_at": "2023-08-21T07:49:19.093Z",
+        "name": "Admin",
+        "description": "Administrator role",
+        "active": false
+      },
+      {
+        "id": "61598238-3408-4ebe-965a-8adfd540e93e",
+        "created_at": "2023-08-21T02:19:23.973Z",
+        "updated_at": "2023-08-20T15:26:52.414Z",
+        "name": "Manager",
+        "description": "Manager role",
+        "active": false
+      },
+      {
+        "id": "c35823ec-a3d3-4aad-9cae-7fd5efb91dc0",
+        "created_at": "2023-08-21T03:49:33.554Z",
+        "updated_at": "2023-08-20T21:36:52.196Z",
+        "name": "Employee",
+        "description": "Employee role",
+        "active": false
+      },
+      {
+        "id": "cb254d12-7825-4b77-8e01-288ea5daaba3",
+        "created_at": "2023-08-20T16:43:00.459Z",
+        "updated_at": "2023-08-21T10:46:18.044Z",
+        "name": "Supervisor",
+        "description": "Supervisor role",
+        "active": true
+      },
+      {
+        "id": "7b993a55-a822-4822-94f7-fe02459ce2e3",
+        "created_at": "2023-08-21T09:49:26.229Z",
+        "updated_at": "2023-08-21T10:17:24.317Z",
+        "name": "Team Lead",
+        "description": "Team Lead role",
+        "active": true
+      }
+    ],
+    "model": [
+      {
+        "id": "5535ed1c-0555-462f-908c-f026cfe74791",
+        "created_at": "2023-08-21T02:55:03.598Z",
+        "updated_at": "2023-08-20T18:40:25.104Z",
+        "name": "Model A",
+        "active": true
+      },
+      {
+        "id": "a160a75d-ce12-4890-b026-d67027c59bff",
+        "created_at": "2023-08-20T21:13:25.249Z",
+        "updated_at": "2023-08-20T21:23:28.378Z",
+        "name": "Model B",
+        "active": true
+      },
+      {
+        "id": "6cfc1e64-44fb-4e32-b1fa-6ae015a0e3d8",
+        "created_at": "2023-08-20T14:42:57.762Z",
+        "updated_at": "2023-08-20T17:20:41.509Z",
+        "name": "Model C",
+        "active": true
+      },
+      {
+        "id": "13d6ce79-a040-4f43-9d84-37c20d541916",
+        "created_at": "2023-08-20T21:53:14.761Z",
+        "updated_at": "2023-08-20T18:01:00.838Z",
+        "name": "Model D",
+        "active": false
+      },
+      {
+        "id": "4856737f-0675-4427-a63a-e4c46adb91d6",
+        "created_at": "2023-08-20T13:34:54.535Z",
+        "updated_at": "2023-08-21T07:22:20.216Z",
+        "name": "Model E",
+        "active": false
+      }
+    ],
+    "invitation": [
+      {
+        "id": "117da36b-6910-4191-a14a-ab7f45542633",
+        "status": "Pending",
+        "created_at": "2023-08-21T10:46:23.532Z",
+        "updated_at": "2023-08-21T06:45:59.606Z",
+        "invitee_id": "user_entity_pk",
+        "inviter_id": "user_entity_pk",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "4af4d4c7-8263-4f5c-aa4c-b87ab0535129",
+        "status": "Accepted",
+        "created_at": "2023-08-20T22:01:13.838Z",
+        "updated_at": "2023-08-21T07:19:28.677Z",
+        "invitee_id": "user_entity_pk",
+        "inviter_id": "user_entity_pk",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "3fc58fa0-9442-435c-8301-20ffe3e3811d",
+        "status": "Declined",
+        "created_at": "2023-08-21T07:47:27.413Z",
+        "updated_at": "2023-08-21T01:39:34.861Z",
+        "invitee_id": "user_entity_pk",
+        "inviter_id": "user_entity_pk",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "52f663ae-081f-4645-866a-20547a55005f",
+        "status": "Expired",
+        "created_at": "2023-08-21T07:57:18.379Z",
+        "updated_at": "2023-08-20T17:52:27.239Z",
+        "invitee_id": "user_entity_pk",
+        "inviter_id": "user_entity_pk",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "92e38cca-2b77-4cf0-a3c8-31430f521f57",
+        "status": "Cancelled",
+        "created_at": "2023-08-20T18:12:01.530Z",
+        "updated_at": "2023-08-21T05:23:31.143Z",
+        "invitee_id": "user_entity_pk",
+        "inviter_id": "user_entity_pk",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "chat": [
+      {
+        "id": "3c5f07b8-0f83-47ca-b747-ecfb7777b818",
+        "title": "Project Discussion",
+        "created_at": "2023-08-21T01:16:23.315Z",
+        "updated_at": "2023-08-20T13:37:37.373Z",
+        "model_id": "13d6ce79-a040-4f43-9d84-37c20d541916",
+        "organization_id": "main_entity_pk",
+        "role_id": "cb254d12-7825-4b77-8e01-288ea5daaba3",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "992f6e31-56f1-490a-a331-1a42cf14d2db",
+        "title": "Team Meeting",
+        "created_at": "2023-08-20T21:15:03.424Z",
+        "updated_at": "2023-08-21T01:51:19.509Z",
+        "model_id": "6cfc1e64-44fb-4e32-b1fa-6ae015a0e3d8",
+        "organization_id": "main_entity_pk",
+        "role_id": "61598238-3408-4ebe-965a-8adfd540e93e",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "78929d66-02df-43b7-ba0f-d3c567fa71f5",
+        "title": "Sales Strategy",
+        "created_at": "2023-08-20T15:16:41.015Z",
+        "updated_at": "2023-08-20T16:45:16.920Z",
+        "model_id": "13d6ce79-a040-4f43-9d84-37c20d541916",
+        "organization_id": "main_entity_pk",
+        "role_id": "61598238-3408-4ebe-965a-8adfd540e93e",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "cae435b1-208d-4dbf-b95c-53d4e8b08102",
+        "title": "Marketing Campaign",
+        "created_at": "2023-08-21T05:18:29.065Z",
+        "updated_at": "2023-08-20T19:43:13.481Z",
+        "model_id": "13d6ce79-a040-4f43-9d84-37c20d541916",
+        "organization_id": "main_entity_pk",
+        "role_id": "c35823ec-a3d3-4aad-9cae-7fd5efb91dc0",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0f5e5483-d562-40a8-9db4-129ebc8d0e0d",
+        "title": "Product Launch",
+        "created_at": "2023-08-21T02:17:15.560Z",
+        "updated_at": "2023-08-21T06:01:52.898Z",
+        "model_id": "4856737f-0675-4427-a63a-e4c46adb91d6",
+        "organization_id": "main_entity_pk",
+        "role_id": "4e577a80-5b46-4c13-bc8f-544acf4da97c",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "message": [
+      {
+        "id": "67474442-7914-4060-90ec-d9a2d6204eaa",
+        "content": "Hello, how are you?",
+        "created_at": "2023-08-20T23:02:39.510Z",
+        "updated_at": "2023-08-21T07:18:18.695Z",
+        "chat_id": "992f6e31-56f1-490a-a331-1a42cf14d2db",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "11347feb-ac0b-4926-9b61-6f66b40121d6",
+        "content": "Just checking in",
+        "created_at": "2023-08-20T20:59:49.567Z",
+        "updated_at": "2023-08-20T20:41:14.597Z",
+        "chat_id": "cae435b1-208d-4dbf-b95c-53d4e8b08102",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9a56ef2b-67c0-4c93-83bf-a09b61d5256c",
+        "content": "Please review the attached document",
+        "created_at": "2023-08-20T15:08:31.672Z",
+        "updated_at": "2023-08-20T23:33:43.876Z",
+        "chat_id": "3c5f07b8-0f83-47ca-b747-ecfb7777b818",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5900c177-6abc-4641-bdc7-bbefb1283ec8",
+        "content": "I need your feedback on this",
+        "created_at": "2023-08-20T12:06:22.105Z",
+        "updated_at": "2023-08-20T19:55:47.331Z",
+        "chat_id": "cae435b1-208d-4dbf-b95c-53d4e8b08102",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "622eb959-8db2-440f-897a-3dd81bb2e310",
+        "content": "Can we schedule a meeting?",
+        "created_at": "2023-08-20T23:14:17.285Z",
+        "updated_at": "2023-08-20T16:28:51.392Z",
+        "chat_id": "78929d66-02df-43b7-ba0f-d3c567fa71f5",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "8fae512c-bbdc-4590-8f6e-7d6fe44cf4f4",
+        "email": "Adrian24@hotmail.com",
+        "firstName": "Abe",
+        "lastName": "Roberts",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/46293113",
+        "tenantId": null
+      },
+      {
+        "reference": "1617da81-0d8b-403a-8019-49478c2bdec2",
+        "email": "Bartholome.Rippin15@yahoo.com",
+        "firstName": "Annamae",
+        "lastName": "Mohr",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/359.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "cdabb45c-6adc-498f-baa4-08f815894b54",
+        "email": "Dereck4@hotmail.com",
+        "firstName": "Vida",
+        "lastName": "Krajcik",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/24485582",
+        "tenantId": null
+      },
+      {
+        "reference": "b4705d50-993f-4e20-82b9-544cdeafd160",
+        "email": "Lura_Hessel@hotmail.com",
+        "firstName": "Geovanny",
+        "lastName": "McDermott",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/55855618",
+        "tenantId": null
+      },
+      {
+        "reference": "d6bd1429-80d9-4889-896f-bcc0caa4f5f8",
+        "email": "Imogene4@yahoo.com",
+        "firstName": "Declan",
+        "lastName": "Johnson",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/903.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "role": [
+      {
+        "id": "0b92e235-0dca-4451-a505-cdca727e2368",
+        "created_at": "2023-08-21T10:05:58.623Z",
+        "updated_at": "2023-08-21T00:10:22.527Z",
+        "name": "Admin",
+        "description": "Administrator role",
+        "active": false
+      },
+      {
+        "id": "1288a77d-d410-46e6-8c25-052bfaf0f43d",
+        "created_at": "2023-08-20T12:45:31.787Z",
+        "updated_at": "2023-08-20T22:25:01.568Z",
+        "name": "Manager",
+        "description": "Manager role",
+        "active": false
+      },
+      {
+        "id": "3bd29a11-5f6b-4e5c-bf90-d84029aabadb",
+        "created_at": "2023-08-21T03:10:47.241Z",
+        "updated_at": "2023-08-21T09:34:33.189Z",
+        "name": "Employee",
+        "description": "Employee role",
+        "active": false
+      },
+      {
+        "id": "a172de08-4eb1-4664-bbf8-87db0a67bcf8",
+        "created_at": "2023-08-21T01:26:43.075Z",
+        "updated_at": "2023-08-21T03:12:26.165Z",
+        "name": "Supervisor",
+        "description": "Supervisor role",
+        "active": true
+      },
+      {
+        "id": "395bbe49-6ca7-4537-9e4a-42ee213bc5de",
+        "created_at": "2023-08-21T08:57:59.027Z",
+        "updated_at": "2023-08-21T01:26:00.314Z",
+        "name": "Team Lead",
+        "description": "Team Lead role",
+        "active": true
+      }
+    ],
+    "model": [
+      {
+        "id": "67c6a04d-17bf-49eb-9fe3-15f821f63532",
+        "created_at": "2023-08-21T06:42:39.575Z",
+        "updated_at": "2023-08-20T20:38:05.475Z",
+        "name": "Model A",
+        "active": true
+      },
+      {
+        "id": "16e19855-7c16-416d-9b01-7bfe02015a5e",
+        "created_at": "2023-08-21T10:24:57.646Z",
+        "updated_at": "2023-08-20T23:49:40.541Z",
+        "name": "Model B",
+        "active": false
+      },
+      {
+        "id": "ec54903b-c3c6-4ef9-a5f7-57075e068488",
+        "created_at": "2023-08-21T00:10:34.458Z",
+        "updated_at": "2023-08-20T18:10:01.506Z",
+        "name": "Model C",
+        "active": true
+      },
+      {
+        "id": "e3772bf3-f648-4e4e-acb3-29b909dd4ee8",
+        "created_at": "2023-08-20T13:05:14.369Z",
+        "updated_at": "2023-08-21T02:07:04.609Z",
+        "name": "Model D",
+        "active": true
+      },
+      {
+        "id": "a08b5eb0-e0e3-4912-893b-ab83ee93fb5a",
+        "created_at": "2023-08-21T09:56:52.223Z",
+        "updated_at": "2023-08-21T01:00:39.251Z",
+        "name": "Model E",
+        "active": false
+      }
+    ],
+    "invitation": [
+      {
+        "id": "31b9e7ca-25ca-46cd-94c3-96e4d7d0c595",
+        "status": "Pending",
+        "created_at": "2023-08-21T00:57:21.348Z",
+        "updated_at": "2023-08-21T00:45:56.070Z",
+        "invitee_id": "user_entity_pk",
+        "inviter_id": "user_entity_pk",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "a5fe6b11-ee2e-4e68-a949-7c4cfa19af29",
+        "status": "Accepted",
+        "created_at": "2023-08-20T14:48:07.382Z",
+        "updated_at": "2023-08-20T15:25:09.689Z",
+        "invitee_id": "user_entity_pk",
+        "inviter_id": "user_entity_pk",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "f9467054-a1fa-4bf5-bcfe-ef36890f4352",
+        "status": "Declined",
+        "created_at": "2023-08-21T03:20:16.607Z",
+        "updated_at": "2023-08-20T16:18:12.834Z",
+        "invitee_id": "user_entity_pk",
+        "inviter_id": "user_entity_pk",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "070342ba-714d-45c8-810a-ed27218f7fa0",
+        "status": "Expired",
+        "created_at": "2023-08-21T03:21:00.916Z",
+        "updated_at": "2023-08-20T20:59:45.772Z",
+        "invitee_id": "user_entity_pk",
+        "inviter_id": "user_entity_pk",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "5cbc4548-dd44-4340-94ce-4bd9c4294f70",
+        "status": "Cancelled",
+        "created_at": "2023-08-21T01:49:19.755Z",
+        "updated_at": "2023-08-21T00:36:11.567Z",
+        "invitee_id": "user_entity_pk",
+        "inviter_id": "user_entity_pk",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "chat": [
+      {
+        "id": "46659db7-6e35-45d5-8b83-e5e92c1d1a2a",
+        "title": "Chat 1",
+        "created_at": "2023-08-21T05:19:57.825Z",
+        "updated_at": "2023-08-21T07:39:02.018Z",
+        "model_id": "a08b5eb0-e0e3-4912-893b-ab83ee93fb5a",
+        "organization_id": "main_entity_pk",
+        "role_id": "0b92e235-0dca-4451-a505-cdca727e2368",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "65139b56-cc41-4cd9-b425-b3315bef14f8",
+        "title": "Chat 2",
+        "created_at": "2023-08-20T21:05:15.394Z",
+        "updated_at": "2023-08-21T08:06:50.809Z",
+        "model_id": "a08b5eb0-e0e3-4912-893b-ab83ee93fb5a",
+        "organization_id": "main_entity_pk",
+        "role_id": "a172de08-4eb1-4664-bbf8-87db0a67bcf8",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "dc42e999-2896-4dd9-ae89-992ba971b05d",
+        "title": "Chat 3",
+        "created_at": "2023-08-20T16:38:16.476Z",
+        "updated_at": "2023-08-20T14:32:00.354Z",
+        "model_id": "ec54903b-c3c6-4ef9-a5f7-57075e068488",
+        "organization_id": "main_entity_pk",
+        "role_id": "0b92e235-0dca-4451-a505-cdca727e2368",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c3cd237e-5d29-4204-8cbc-bd5b8f7fd7ff",
+        "title": "Chat 4",
+        "created_at": "2023-08-21T07:22:51.793Z",
+        "updated_at": "2023-08-21T04:02:48.439Z",
+        "model_id": "67c6a04d-17bf-49eb-9fe3-15f821f63532",
+        "organization_id": "main_entity_pk",
+        "role_id": "1288a77d-d410-46e6-8c25-052bfaf0f43d",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a77804dd-a3ab-493d-baba-8a3159f0781a",
+        "title": "Chat 5",
+        "created_at": "2023-08-21T02:11:17.106Z",
+        "updated_at": "2023-08-20T17:16:59.388Z",
+        "model_id": "a08b5eb0-e0e3-4912-893b-ab83ee93fb5a",
+        "organization_id": "main_entity_pk",
+        "role_id": "0b92e235-0dca-4451-a505-cdca727e2368",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "message": [
+      {
+        "id": "81fe0a81-102d-4b58-ac9c-77f32ab3800d",
+        "content": "Hello",
+        "created_at": "2023-08-20T16:21:06.377Z",
+        "updated_at": "2023-08-20T17:58:00.858Z",
+        "chat_id": "c3cd237e-5d29-4204-8cbc-bd5b8f7fd7ff",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "203a1eab-f7d9-4e18-8235-45d4c197d628",
+        "content": "How are you?",
+        "created_at": "2023-08-20T21:32:26.969Z",
+        "updated_at": "2023-08-21T03:07:30.978Z",
+        "chat_id": "dc42e999-2896-4dd9-ae89-992ba971b05d",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "faf3826f-36c2-4f41-8801-4d84dd9f45d1",
+        "content": "Nice to meet you",
+        "created_at": "2023-08-21T01:21:32.734Z",
+        "updated_at": "2023-08-21T09:58:46.373Z",
+        "chat_id": "dc42e999-2896-4dd9-ae89-992ba971b05d",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3948b630-6a6a-4dfa-aa25-95a4f1c2c5cd",
+        "content": "What's your plan for today?",
+        "created_at": "2023-08-20T20:35:32.982Z",
+        "updated_at": "2023-08-20T22:37:29.093Z",
+        "chat_id": "dc42e999-2896-4dd9-ae89-992ba971b05d",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a8d0f859-712d-445b-bfcb-07c565343fd3",
+        "content": "Have a great day!",
+        "created_at": "2023-08-21T05:58:52.223Z",
+        "updated_at": "2023-08-21T00:38:24.074Z",
+        "chat_id": "a77804dd-a3ab-493d-baba-8a3159f0781a",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "7daab9b6-8ebb-437c-a2c7-383815b887a1",
+        "email": "Rozella52@yahoo.com",
+        "firstName": "Freddy",
+        "lastName": "Swaniawski",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/46067562",
+        "tenantId": null
+      },
+      {
+        "reference": "52935844-b1fd-41c8-bf2c-4df388456278",
+        "email": "Anne_Rath41@yahoo.com",
+        "firstName": "Lavada",
+        "lastName": "Greenholt",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/32275761",
+        "tenantId": null
+      },
+      {
+        "reference": "7eb24fcb-b87a-4007-8cf9-846497ef4b31",
+        "email": "Jalon_Olson@hotmail.com",
+        "firstName": "Donato",
+        "lastName": "Sporer",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/33242100",
+        "tenantId": null
+      },
+      {
+        "reference": "f474264f-5bf9-4ad8-8511-19a5d44c91c7",
+        "email": "Floyd.Dibbert@hotmail.com",
+        "firstName": "Casey",
+        "lastName": "Senger",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/17785492",
+        "tenantId": null
+      },
+      {
+        "reference": "7609ae0e-68a1-4f54-8296-b8349e4979b8",
+        "email": "Shanna.Collier@gmail.com",
+        "firstName": "Deion",
+        "lastName": "Hayes",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/186.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "role": [
+      {
+        "id": "7bb60cf2-ab96-49ac-837e-f08c665172f7",
+        "created_at": "2023-08-20T11:53:05.715Z",
+        "updated_at": "2023-08-21T00:33:08.903Z",
+        "name": "Admin",
+        "description": "Administrator role",
+        "active": false
+      },
+      {
+        "id": "848169d1-bd5d-4e28-864f-7f913234e0b7",
+        "created_at": "2023-08-21T06:54:56.265Z",
+        "updated_at": "2023-08-21T02:58:01.357Z",
+        "name": "Manager",
+        "description": "Manager role",
+        "active": false
+      },
+      {
+        "id": "a9c166f1-326f-494c-954a-98c5e5ced4ac",
+        "created_at": "2023-08-21T03:54:09.089Z",
+        "updated_at": "2023-08-20T12:16:02.474Z",
+        "name": "Employee",
+        "description": "Employee role",
+        "active": true
+      },
+      {
+        "id": "e6604f89-7153-434c-8b44-214d294fd38b",
+        "created_at": "2023-08-21T09:42:58.588Z",
+        "updated_at": "2023-08-20T15:59:59.016Z",
+        "name": "Supervisor",
+        "description": "Supervisor role",
+        "active": true
+      },
+      {
+        "id": "ce08dabf-24c5-4ce5-9692-3b973e4ad461",
+        "created_at": "2023-08-21T07:42:52.748Z",
+        "updated_at": "2023-08-20T11:39:24.759Z",
+        "name": "Assistant",
+        "description": "Assistant role",
+        "active": true
+      }
+    ],
+    "model": [
+      {
+        "id": "58897202-06ce-4efd-84cd-a5fe12471f9d",
+        "created_at": "2023-08-20T16:13:30.211Z",
+        "updated_at": "2023-08-20T20:22:57.838Z",
+        "name": "Model A",
+        "active": false
+      },
+      {
+        "id": "3a44ea41-7f3d-4351-99a2-a5450c2cca52",
+        "created_at": "2023-08-20T14:56:30.141Z",
+        "updated_at": "2023-08-20T17:47:05.966Z",
+        "name": "Model B",
+        "active": true
+      },
+      {
+        "id": "c7197d68-2feb-484b-9e30-8ae0131cbaec",
+        "created_at": "2023-08-21T03:41:21.636Z",
+        "updated_at": "2023-08-21T08:40:19.869Z",
+        "name": "Model C",
+        "active": false
+      },
+      {
+        "id": "71fe8733-3c7d-454c-b1ad-046a94de5adb",
+        "created_at": "2023-08-20T16:09:57.752Z",
+        "updated_at": "2023-08-21T09:39:35.270Z",
+        "name": "Model D",
+        "active": false
+      },
+      {
+        "id": "b8774d5d-7ef4-4b7f-ac51-c2a4953091b2",
+        "created_at": "2023-08-20T14:21:23.268Z",
+        "updated_at": "2023-08-20T20:21:00.860Z",
+        "name": "Model E",
+        "active": true
+      }
+    ],
+    "invitation": [
+      {
+        "id": "28acc579-9a30-438f-b62f-43130689d9a9",
+        "status": "Pending",
+        "created_at": "2023-08-21T07:21:46.619Z",
+        "updated_at": "2023-08-20T23:39:05.974Z",
+        "invitee_id": "user_entity_pk",
+        "inviter_id": "user_entity_pk",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "0ab6439c-8495-41db-bfb2-3747a0d84e9e",
+        "status": "Accepted",
+        "created_at": "2023-08-20T14:20:11.019Z",
+        "updated_at": "2023-08-21T04:11:37.955Z",
+        "invitee_id": "user_entity_pk",
+        "inviter_id": "user_entity_pk",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "605871c0-02cc-482a-ada4-ce7b9e68b42a",
+        "status": "Declined",
+        "created_at": "2023-08-21T01:19:17.153Z",
+        "updated_at": "2023-08-21T06:58:28.802Z",
+        "invitee_id": "user_entity_pk",
+        "inviter_id": "user_entity_pk",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "a8dc279b-1f47-4449-a8b8-e14d6d858448",
+        "status": "Expired",
+        "created_at": "2023-08-21T03:28:51.611Z",
+        "updated_at": "2023-08-21T05:10:11.803Z",
+        "invitee_id": "user_entity_pk",
+        "inviter_id": "user_entity_pk",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "84b73fe8-915f-4c46-90dd-3b7b30b6135f",
+        "status": "Cancelled",
+        "created_at": "2023-08-20T19:57:57.778Z",
+        "updated_at": "2023-08-20T22:02:31.575Z",
+        "invitee_id": "user_entity_pk",
+        "inviter_id": "user_entity_pk",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "chat": [
+      {
+        "id": "0f72c0b2-c38d-4e4c-b063-97b74a116633",
+        "title": "Chat A",
+        "created_at": "2023-08-21T05:21:40.649Z",
+        "updated_at": "2023-08-20T22:29:56.871Z",
+        "model_id": "71fe8733-3c7d-454c-b1ad-046a94de5adb",
+        "organization_id": "main_entity_pk",
+        "role_id": "7bb60cf2-ab96-49ac-837e-f08c665172f7",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8f60f02c-890a-44c1-8dfc-50c58209b0e9",
+        "title": "Chat B",
+        "created_at": "2023-08-20T13:56:17.055Z",
+        "updated_at": "2023-08-20T21:17:14.806Z",
+        "model_id": "c7197d68-2feb-484b-9e30-8ae0131cbaec",
+        "organization_id": "main_entity_pk",
+        "role_id": "848169d1-bd5d-4e28-864f-7f913234e0b7",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8cc2ba37-2976-4bbd-8524-a51d5c46e21c",
+        "title": "Chat C",
+        "created_at": "2023-08-20T21:25:42.067Z",
+        "updated_at": "2023-08-20T13:09:25.095Z",
+        "model_id": "3a44ea41-7f3d-4351-99a2-a5450c2cca52",
+        "organization_id": "main_entity_pk",
+        "role_id": "7bb60cf2-ab96-49ac-837e-f08c665172f7",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b7fd3f6d-2fd2-443d-9b44-fd55335f267d",
+        "title": "Chat D",
+        "created_at": "2023-08-21T06:13:19.236Z",
+        "updated_at": "2023-08-21T02:45:06.219Z",
+        "model_id": "58897202-06ce-4efd-84cd-a5fe12471f9d",
+        "organization_id": "main_entity_pk",
+        "role_id": "848169d1-bd5d-4e28-864f-7f913234e0b7",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6a8f3c1a-4947-408c-99a0-885ecbf1ae53",
+        "title": "Chat E",
+        "created_at": "2023-08-21T10:01:04.731Z",
+        "updated_at": "2023-08-20T13:26:59.252Z",
+        "model_id": "58897202-06ce-4efd-84cd-a5fe12471f9d",
+        "organization_id": "main_entity_pk",
+        "role_id": "ce08dabf-24c5-4ce5-9692-3b973e4ad461",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "message": [
+      {
+        "id": "e839b715-6f09-424e-8aab-2b5f907fd222",
+        "content": "Message A content",
+        "created_at": "2023-08-21T08:04:00.468Z",
+        "updated_at": "2023-08-20T23:19:55.702Z",
+        "chat_id": "b7fd3f6d-2fd2-443d-9b44-fd55335f267d",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "256b9267-23b1-4a3d-9d9c-8ee8dce6335d",
+        "content": "Message B content",
+        "created_at": "2023-08-21T01:44:11.416Z",
+        "updated_at": "2023-08-20T16:21:02.002Z",
+        "chat_id": "0f72c0b2-c38d-4e4c-b063-97b74a116633",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4809449f-2191-497a-8bbf-10f5a89605f5",
+        "content": "Message C content",
+        "created_at": "2023-08-21T08:01:09.702Z",
+        "updated_at": "2023-08-21T08:31:34.877Z",
+        "chat_id": "b7fd3f6d-2fd2-443d-9b44-fd55335f267d",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "510a26d5-ad0a-46fd-914a-ece15230184e",
+        "content": "Message D content",
+        "created_at": "2023-08-20T13:11:26.439Z",
+        "updated_at": "2023-08-21T02:22:39.396Z",
+        "chat_id": "0f72c0b2-c38d-4e4c-b063-97b74a116633",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c167836c-3852-45e0-a73b-2ae1b614277f",
+        "content": "Message E content",
+        "created_at": "2023-08-20T21:37:07.709Z",
+        "updated_at": "2023-08-21T09:15:32.392Z",
+        "chat_id": "8cc2ba37-2976-4bbd-8524-a51d5c46e21c",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "47b94f23-eacd-4e77-84fe-50f26de1f8c8",
+        "email": "Lolita99@hotmail.com",
+        "firstName": "Jamey",
+        "lastName": "Tromp",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1230.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "2fbc8e48-ce2b-42fa-91a7-f5581f5165fb",
+        "email": "Okey.Pacocha48@yahoo.com",
+        "firstName": "Walton",
+        "lastName": "Nienow",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/81825673",
+        "tenantId": null
+      },
+      {
+        "reference": "25f67942-5f41-496b-b246-4ce9e4b55037",
+        "email": "Dasia_Wuckert84@hotmail.com",
+        "firstName": "Jazmyn",
+        "lastName": "Ortiz",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/65321833",
+        "tenantId": null
+      },
+      {
+        "reference": "f2c7eb8a-6a06-46ed-baf6-6a6771da7ba4",
+        "email": "Kaleigh94@hotmail.com",
+        "firstName": "Liza",
+        "lastName": "Von",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/44631968",
+        "tenantId": null
+      },
+      {
+        "reference": "6e561e80-a53f-4068-ac60-b2bc91a2d28d",
+        "email": "Chelsea.Donnelly@yahoo.com",
+        "firstName": "Maude",
+        "lastName": "Bahringer",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/445.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "role": [
+      {
+        "id": "7b20f9e5-69fb-4c7d-a021-ee3e997d6abb",
+        "created_at": "2023-08-20T15:32:52.571Z",
+        "updated_at": "2023-08-20T12:26:39.390Z",
+        "name": "Admin",
+        "description": "Administrator role",
+        "active": true
+      },
+      {
+        "id": "be25c84b-743a-425a-95da-169c5d8b412d",
+        "created_at": "2023-08-21T07:38:05.148Z",
+        "updated_at": "2023-08-20T22:57:48.309Z",
+        "name": "Manager",
+        "description": "Manager role",
+        "active": false
+      },
+      {
+        "id": "f7442116-2ddd-4d1d-99ba-51effd34aa78",
+        "created_at": "2023-08-20T13:22:17.757Z",
+        "updated_at": "2023-08-21T07:36:23.276Z",
+        "name": "Supervisor",
+        "description": "Supervisor role",
+        "active": false
+      },
+      {
+        "id": "af3d63f0-2ca5-4e3b-9730-46dfb458d539",
+        "created_at": "2023-08-20T15:31:35.128Z",
+        "updated_at": "2023-08-20T19:01:27.229Z",
+        "name": "Employee",
+        "description": "Employee role",
+        "active": true
+      },
+      {
+        "id": "d8a6e1e1-e1df-4c44-89f8-78f587da6ae1",
+        "created_at": "2023-08-21T10:01:52.642Z",
+        "updated_at": "2023-08-20T13:08:29.143Z",
+        "name": "Guest",
+        "description": "Guest role",
+        "active": true
+      }
+    ],
+    "model": [
+      {
+        "id": "dc8a875a-dfc1-493b-8cc5-bbabcf0440fa",
+        "created_at": "2023-08-21T06:24:55.356Z",
+        "updated_at": "2023-08-21T03:35:58.161Z",
+        "name": "Model A",
+        "active": false
+      },
+      {
+        "id": "912fddfc-f5d8-4de5-a7b3-3a560f86e89a",
+        "created_at": "2023-08-20T12:07:47.849Z",
+        "updated_at": "2023-08-20T21:55:09.694Z",
+        "name": "Model B",
+        "active": true
+      },
+      {
+        "id": "b9ead112-00f2-46ad-8cb3-8b0c4916c520",
+        "created_at": "2023-08-21T05:53:14.542Z",
+        "updated_at": "2023-08-20T14:02:12.876Z",
+        "name": "Model C",
+        "active": false
+      },
+      {
+        "id": "b6b41afe-565c-44ff-a31d-89a5a305ff26",
+        "created_at": "2023-08-21T09:18:47.764Z",
+        "updated_at": "2023-08-20T19:01:51.911Z",
+        "name": "Model D",
+        "active": false
+      },
+      {
+        "id": "aaa2cea9-93d4-4065-a238-c4d2e39fc2dd",
+        "created_at": "2023-08-21T04:49:34.875Z",
+        "updated_at": "2023-08-20T11:43:13.770Z",
+        "name": "Model E",
+        "active": true
+      }
+    ],
+    "invitation": [
+      {
+        "id": "c8fa6611-17a0-4fcc-90c5-0b024a382b21",
+        "status": "Pending",
+        "created_at": "2023-08-20T23:26:21.589Z",
+        "updated_at": "2023-08-20T19:46:24.665Z",
+        "invitee_id": "user_entity_pk",
+        "inviter_id": "user_entity_pk",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "6ce00c5f-a759-4439-a7a0-3c6cff2b9b85",
+        "status": "Accepted",
+        "created_at": "2023-08-21T01:31:55.766Z",
+        "updated_at": "2023-08-21T00:46:04.588Z",
+        "invitee_id": "user_entity_pk",
+        "inviter_id": "user_entity_pk",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "95aca8dc-1935-4cd5-849d-19773c084735",
+        "status": "Declined",
+        "created_at": "2023-08-21T04:00:27.748Z",
+        "updated_at": "2023-08-21T08:31:51.156Z",
+        "invitee_id": "user_entity_pk",
+        "inviter_id": "user_entity_pk",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "53212e2c-999a-4030-a782-838a578169f6",
+        "status": "Expired",
+        "created_at": "2023-08-20T19:28:51.601Z",
+        "updated_at": "2023-08-20T22:27:46.430Z",
+        "invitee_id": "user_entity_pk",
+        "inviter_id": "user_entity_pk",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "ddcd028d-f665-4ff1-b334-c81ddb30edc5",
+        "status": "Cancelled",
+        "created_at": "2023-08-21T04:12:50.325Z",
+        "updated_at": "2023-08-20T11:17:24.689Z",
+        "invitee_id": "user_entity_pk",
+        "inviter_id": "user_entity_pk",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "chat": [
+      {
+        "id": "22993eb7-1670-46da-935e-601e20fe67e5",
+        "title": "General Chat",
+        "created_at": "2023-08-21T02:40:57.153Z",
+        "updated_at": "2023-08-21T03:03:22.227Z",
+        "model_id": "dc8a875a-dfc1-493b-8cc5-bbabcf0440fa",
+        "organization_id": "main_entity_pk",
+        "role_id": "f7442116-2ddd-4d1d-99ba-51effd34aa78",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "abc65ae9-893c-495d-84d5-66da10a7b0a0",
+        "title": "Team Discussion",
+        "created_at": "2023-08-21T08:00:36.913Z",
+        "updated_at": "2023-08-21T01:44:16.074Z",
+        "model_id": "b6b41afe-565c-44ff-a31d-89a5a305ff26",
+        "organization_id": "main_entity_pk",
+        "role_id": "d8a6e1e1-e1df-4c44-89f8-78f587da6ae1",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a41d6b10-ef18-4cd8-9730-b6e1586338f9",
+        "title": "Project Updates",
+        "created_at": "2023-08-21T01:30:38.778Z",
+        "updated_at": "2023-08-21T02:55:59.164Z",
+        "model_id": "aaa2cea9-93d4-4065-a238-c4d2e39fc2dd",
+        "organization_id": "main_entity_pk",
+        "role_id": "f7442116-2ddd-4d1d-99ba-51effd34aa78",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1b2eeab4-86be-46f3-a6b3-71ba13aa73e6",
+        "title": "Marketing Strategy",
+        "created_at": "2023-08-20T11:05:56.499Z",
+        "updated_at": "2023-08-21T04:56:17.664Z",
+        "model_id": "912fddfc-f5d8-4de5-a7b3-3a560f86e89a",
+        "organization_id": "main_entity_pk",
+        "role_id": "7b20f9e5-69fb-4c7d-a021-ee3e997d6abb",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "dceed9e9-4282-428c-9586-0b57dfaf60e5",
+        "title": "Customer Support",
+        "created_at": "2023-08-20T14:56:51.144Z",
+        "updated_at": "2023-08-21T01:29:44.022Z",
+        "model_id": "b9ead112-00f2-46ad-8cb3-8b0c4916c520",
+        "organization_id": "main_entity_pk",
+        "role_id": "d8a6e1e1-e1df-4c44-89f8-78f587da6ae1",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "message": [
+      {
+        "id": "383a0501-0252-46c7-872e-bf35d3d2a53e",
+        "content": "Hello!",
+        "created_at": "2023-08-21T04:20:55.176Z",
+        "updated_at": "2023-08-21T08:03:04.434Z",
+        "chat_id": "dceed9e9-4282-428c-9586-0b57dfaf60e5",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "867cdc5e-4279-4332-acd7-d685639a3e3d",
+        "content": "How are you?",
+        "created_at": "2023-08-20T14:58:28.899Z",
+        "updated_at": "2023-08-20T20:44:40.814Z",
+        "chat_id": "a41d6b10-ef18-4cd8-9730-b6e1586338f9",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8b8d0310-6784-4185-9563-45dd9aad621f",
+        "content": "Just checking in.",
+        "created_at": "2023-08-20T18:57:59.644Z",
+        "updated_at": "2023-08-20T21:38:58.328Z",
+        "chat_id": "dceed9e9-4282-428c-9586-0b57dfaf60e5",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9aef0291-b149-4fdf-9ee9-db90ef368eda",
+        "content": "Please review the attached document.",
+        "created_at": "2023-08-21T07:49:52.656Z",
+        "updated_at": "2023-08-21T10:07:18.306Z",
+        "chat_id": "dceed9e9-4282-428c-9586-0b57dfaf60e5",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b6ea172c-666c-4a6c-98d3-78a9e671c04c",
+        "content": "Thank you for your assistance.",
+        "created_at": "2023-08-20T16:55:26.997Z",
+        "updated_at": "2023-08-20T22:19:52.102Z",
+        "chat_id": "a41d6b10-ef18-4cd8-9730-b6e1586338f9",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "a4f79431-1d9b-4063-8f29-535e4ca98b6e",
+        "email": "Cletus21@yahoo.com",
+        "firstName": "Raegan",
+        "lastName": "Doyle-Schuster",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/42608739",
+        "tenantId": null
+      },
+      {
+        "reference": "0a6129d6-9fe3-4cfb-90d7-22f5c5642c8a",
+        "email": "Amy29@gmail.com",
+        "firstName": "Emory",
+        "lastName": "Abshire",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/909.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "92ac0a50-3847-4a5e-b851-dfdb94fefcfd",
+        "email": "Josefina77@gmail.com",
+        "firstName": "Dulce",
+        "lastName": "Klocko",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/23182546",
+        "tenantId": null
+      },
+      {
+        "reference": "55eefcef-cc4b-483e-80e4-3dca09597b37",
+        "email": "Kristofer.Mitchell70@gmail.com",
+        "firstName": "Aubree",
+        "lastName": "Schaefer",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/690.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "a17ba483-783d-4d0c-89a0-6c0b18087c0c",
+        "email": "Noe.Rodriguez49@gmail.com",
+        "firstName": "Marisol",
+        "lastName": "Carter",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/74311104",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "role": [
+      {
+        "id": "0931097f-d1a0-490c-b574-02fb2b3d369b",
+        "created_at": "2023-08-20T19:22:13.197Z",
+        "updated_at": "2023-08-20T12:26:49.635Z",
+        "name": "Admin",
+        "description": "Administrator role",
+        "active": true
+      },
+      {
+        "id": "08bb74fc-1df9-4d8e-bf15-0bd6345c535b",
+        "created_at": "2023-08-21T02:00:54.221Z",
+        "updated_at": "2023-08-20T14:33:08.786Z",
+        "name": "Manager",
+        "description": "Manager role",
+        "active": false
+      },
+      {
+        "id": "1901ed46-1b99-4d0e-bdfb-c436be3f8d01",
+        "created_at": "2023-08-20T12:49:35.588Z",
+        "updated_at": "2023-08-20T21:41:58.767Z",
+        "name": "Employee",
+        "description": "Employee role",
+        "active": false
+      },
+      {
+        "id": "2ae0f8ab-40cd-4ff3-aa50-c67ee371b59a",
+        "created_at": "2023-08-20T22:47:48.135Z",
+        "updated_at": "2023-08-21T09:23:42.871Z",
+        "name": "Supervisor",
+        "description": "Supervisor role",
+        "active": false
+      },
+      {
+        "id": "24437f3a-e51f-4801-a48b-ec2621da7eda",
+        "created_at": "2023-08-21T06:04:18.746Z",
+        "updated_at": "2023-08-21T08:47:15.697Z",
+        "name": "Team Lead",
+        "description": "Team Lead role",
+        "active": true
+      }
+    ],
+    "model": [
+      {
+        "id": "38b85745-661d-494f-93a8-17ec45cf86e9",
+        "created_at": "2023-08-21T06:39:30.096Z",
+        "updated_at": "2023-08-20T18:38:36.401Z",
+        "name": "Model A",
+        "active": false
+      },
+      {
+        "id": "8ff82cb6-e93e-4380-8143-7f7f31afd226",
+        "created_at": "2023-08-20T17:00:29.662Z",
+        "updated_at": "2023-08-21T03:35:44.159Z",
+        "name": "Model B",
+        "active": false
+      },
+      {
+        "id": "1d983204-1484-486c-a6c1-74531df65d8a",
+        "created_at": "2023-08-20T20:45:37.852Z",
+        "updated_at": "2023-08-20T21:01:52.804Z",
+        "name": "Model C",
+        "active": true
+      },
+      {
+        "id": "31a7c1a3-e81f-417d-9d91-219e8c4d90bd",
+        "created_at": "2023-08-20T15:21:52.860Z",
+        "updated_at": "2023-08-20T18:34:12.218Z",
+        "name": "Model D",
+        "active": true
+      },
+      {
+        "id": "17a24bee-ca12-4287-9d43-c8f803df968e",
+        "created_at": "2023-08-20T13:57:21.172Z",
+        "updated_at": "2023-08-21T02:00:39.430Z",
+        "name": "Model E",
+        "active": true
+      }
+    ],
+    "invitation": [
+      {
+        "id": "89427748-6c1a-4bb3-ad3d-d1379e60e166",
+        "status": "Pending",
+        "created_at": "2023-08-21T09:37:49.558Z",
+        "updated_at": "2023-08-20T21:55:58.932Z",
+        "invitee_id": "user_entity_pk",
+        "inviter_id": "user_entity_pk",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "4d13fc29-bd3e-40e0-8047-4c7aba78924e",
+        "status": "Accepted",
+        "created_at": "2023-08-21T10:37:26.785Z",
+        "updated_at": "2023-08-20T22:54:06.789Z",
+        "invitee_id": "user_entity_pk",
+        "inviter_id": "user_entity_pk",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "6cd12bd3-0223-4546-97cb-0886e40e23dc",
+        "status": "Declined",
+        "created_at": "2023-08-20T23:00:02.996Z",
+        "updated_at": "2023-08-21T07:11:23.227Z",
+        "invitee_id": "user_entity_pk",
+        "inviter_id": "user_entity_pk",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "f826c48c-86cb-4ce8-b7c6-8a3572e3d073",
+        "status": "Expired",
+        "created_at": "2023-08-20T22:51:03.572Z",
+        "updated_at": "2023-08-20T19:27:48.718Z",
+        "invitee_id": "user_entity_pk",
+        "inviter_id": "user_entity_pk",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "17a8855d-c58c-40ae-9a75-de44d7d83a48",
+        "status": "Cancelled",
+        "created_at": "2023-08-20T22:08:27.294Z",
+        "updated_at": "2023-08-20T18:33:54.325Z",
+        "invitee_id": "user_entity_pk",
+        "inviter_id": "user_entity_pk",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "chat": [
+      {
+        "id": "43e67272-47a7-4cbd-ae32-14d7d98d5795",
+        "title": "Project Discussion",
+        "created_at": "2023-08-21T00:59:19.651Z",
+        "updated_at": "2023-08-20T21:49:09.997Z",
+        "model_id": "8ff82cb6-e93e-4380-8143-7f7f31afd226",
+        "organization_id": "main_entity_pk",
+        "role_id": "08bb74fc-1df9-4d8e-bf15-0bd6345c535b",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6cd0be25-d23d-44fb-830f-ddc906fa0273",
+        "title": "Team Meeting",
+        "created_at": "2023-08-21T10:48:59.177Z",
+        "updated_at": "2023-08-20T18:01:07.699Z",
+        "model_id": "31a7c1a3-e81f-417d-9d91-219e8c4d90bd",
+        "organization_id": "main_entity_pk",
+        "role_id": "24437f3a-e51f-4801-a48b-ec2621da7eda",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "bc3dd1a4-55bf-4f5b-a3db-8cc8d92f6089",
+        "title": "Sales Strategy",
+        "created_at": "2023-08-21T02:31:56.861Z",
+        "updated_at": "2023-08-21T04:03:30.373Z",
+        "model_id": "17a24bee-ca12-4287-9d43-c8f803df968e",
+        "organization_id": "main_entity_pk",
+        "role_id": "08bb74fc-1df9-4d8e-bf15-0bd6345c535b",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b8e42a41-486d-4e76-a8ae-8da464bf5fcc",
+        "title": "Product Launch",
+        "created_at": "2023-08-21T07:09:23.520Z",
+        "updated_at": "2023-08-20T21:07:52.455Z",
+        "model_id": "38b85745-661d-494f-93a8-17ec45cf86e9",
+        "organization_id": "main_entity_pk",
+        "role_id": "24437f3a-e51f-4801-a48b-ec2621da7eda",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3085d27d-b020-42d3-a33d-4bc51e9077ee",
+        "title": "Marketing Campaign",
+        "created_at": "2023-08-21T06:53:51.561Z",
+        "updated_at": "2023-08-20T20:59:27.028Z",
+        "model_id": "8ff82cb6-e93e-4380-8143-7f7f31afd226",
+        "organization_id": "main_entity_pk",
+        "role_id": "08bb74fc-1df9-4d8e-bf15-0bd6345c535b",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "message": [
+      {
+        "id": "604951a1-b7e9-4b08-b33f-fd5bd13a2e15",
+        "content": "Hello, how are you?",
+        "created_at": "2023-08-20T22:21:38.912Z",
+        "updated_at": "2023-08-21T08:38:00.757Z",
+        "chat_id": "43e67272-47a7-4cbd-ae32-14d7d98d5795",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ac9b86f7-29f2-45df-b825-8c3584a9e574",
+        "content": "I need your assistance.",
+        "created_at": "2023-08-21T05:36:01.865Z",
+        "updated_at": "2023-08-20T13:42:32.382Z",
+        "chat_id": "3085d27d-b020-42d3-a33d-4bc51e9077ee",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c1345489-a832-4bfe-9994-a71e51b2abbc",
+        "content": "Just wanted to say hi!",
+        "created_at": "2023-08-20T22:05:51.030Z",
+        "updated_at": "2023-08-21T08:21:16.994Z",
+        "chat_id": "6cd0be25-d23d-44fb-830f-ddc906fa0273",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d600ba4f-84ef-43d3-b05b-ed72f9130c49",
+        "content": "Please review the attached document.",
+        "created_at": "2023-08-21T07:41:33.431Z",
+        "updated_at": "2023-08-20T13:53:37.897Z",
+        "chat_id": "3085d27d-b020-42d3-a33d-4bc51e9077ee",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "64825cc9-9327-4468-acea-e691236201e5",
+        "content": "Let's schedule a meeting.",
+        "created_at": "2023-08-20T19:08:29.778Z",
+        "updated_at": "2023-08-21T04:39:29.649Z",
+        "chat_id": "b8e42a41-486d-4e76-a8ae-8da464bf5fcc",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "c767ae84-0430-46a8-8d24-84c05877fe16",
+        "email": "Bridie.Hane24@hotmail.com",
+        "firstName": "Leonardo",
+        "lastName": "Schinner",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/62807175",
+        "tenantId": null
+      },
+      {
+        "reference": "f26e1da7-5b07-40fd-a449-1bca85abe28f",
+        "email": "Clementina.Hand@yahoo.com",
+        "firstName": "Rudolph",
+        "lastName": "Hayes",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/389.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "343b2627-14fd-418e-8b4a-bce40e3048ca",
+        "email": "Sallie.Hackett@hotmail.com",
+        "firstName": "Grady",
+        "lastName": "Olson",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/969.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "9edf0c5c-1944-4fa2-b703-5a95f2c7f2d4",
+        "email": "Ariel_Goldner70@gmail.com",
+        "firstName": "Kevin",
+        "lastName": "Roberts",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/60859982",
+        "tenantId": null
+      },
+      {
+        "reference": "3d408ce5-665f-42ce-b878-23b7751f4619",
+        "email": "Brown73@gmail.com",
+        "firstName": "Sylvan",
+        "lastName": "Schowalter",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/41878581",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "role": [
+      {
+        "id": "2980e8a6-f700-45c1-a841-6d1a738ed325",
+        "created_at": "2023-08-21T01:21:33.147Z",
+        "updated_at": "2023-08-20T18:56:30.585Z",
+        "name": "Admin",
+        "description": "Administrator role",
+        "active": false
+      },
+      {
+        "id": "18d0999e-0eee-4d23-86e5-073989a64c3b",
+        "created_at": "2023-08-20T22:47:56.183Z",
+        "updated_at": "2023-08-21T10:18:29.306Z",
+        "name": "Manager",
+        "description": "Manager role",
+        "active": true
+      },
+      {
+        "id": "2f6f1cc1-51ff-49f4-bc7d-777e855c9dd2",
+        "created_at": "2023-08-21T07:05:15.225Z",
+        "updated_at": "2023-08-20T23:19:20.433Z",
+        "name": "Employee",
+        "description": "Employee role",
+        "active": false
+      },
+      {
+        "id": "e536046a-8343-451f-aa5e-4dcbd3b8946a",
+        "created_at": "2023-08-20T15:11:44.580Z",
+        "updated_at": "2023-08-21T07:05:20.693Z",
+        "name": "Supervisor",
+        "description": "Supervisor role",
+        "active": false
+      },
+      {
+        "id": "2ac41424-5a55-47aa-89f3-394dd9a8107c",
+        "created_at": "2023-08-20T22:48:27.310Z",
+        "updated_at": "2023-08-21T07:06:42.982Z",
+        "name": "Assistant",
+        "description": "Assistant role",
+        "active": true
+      }
+    ],
+    "model": [
+      {
+        "id": "f3b999a4-ca5e-44f3-b6ad-4ea56ce32ee5",
+        "created_at": "2023-08-20T14:28:48.471Z",
+        "updated_at": "2023-08-21T05:20:15.269Z",
+        "name": "Model A",
+        "active": true
+      },
+      {
+        "id": "35b5b984-37db-4d49-b5cd-8b0d56c1a741",
+        "created_at": "2023-08-20T13:49:51.209Z",
+        "updated_at": "2023-08-21T00:26:37.525Z",
+        "name": "Model B",
+        "active": false
+      },
+      {
+        "id": "2da50409-7482-4e2b-81f2-5edb01ea9e6f",
+        "created_at": "2023-08-21T07:51:44.785Z",
+        "updated_at": "2023-08-20T18:18:13.772Z",
+        "name": "Model C",
+        "active": true
+      },
+      {
+        "id": "f06ab7ad-d910-4d27-918b-581fc6d6e52f",
+        "created_at": "2023-08-20T13:27:18.509Z",
+        "updated_at": "2023-08-20T19:07:27.922Z",
+        "name": "Model D",
+        "active": false
+      },
+      {
+        "id": "cfa7e3d5-b331-4c1e-8b6c-0ef44756fee1",
+        "created_at": "2023-08-21T10:32:48.930Z",
+        "updated_at": "2023-08-21T05:21:03.957Z",
+        "name": "Model E",
+        "active": false
+      }
+    ],
+    "invitation": [
+      {
+        "id": "681dfc7f-1ddf-405d-9ea9-4c5eaab8897a",
+        "status": "Pending",
+        "created_at": "2023-08-20T22:08:43.988Z",
+        "updated_at": "2023-08-21T00:55:55.579Z",
+        "invitee_id": "user_entity_pk",
+        "inviter_id": "user_entity_pk",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "ecd97d4c-53c6-406f-bd69-7e5fe22008f4",
+        "status": "Accepted",
+        "created_at": "2023-08-20T11:12:59.467Z",
+        "updated_at": "2023-08-20T22:55:49.350Z",
+        "invitee_id": "user_entity_pk",
+        "inviter_id": "user_entity_pk",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "588a0722-2ce6-4cc1-8f04-0405312e3054",
+        "status": "Declined",
+        "created_at": "2023-08-21T10:32:31.843Z",
+        "updated_at": "2023-08-21T08:56:47.210Z",
+        "invitee_id": "user_entity_pk",
+        "inviter_id": "user_entity_pk",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "761361bc-0f46-43e9-a84e-7610a54a339e",
+        "status": "Expired",
+        "created_at": "2023-08-20T17:38:17.808Z",
+        "updated_at": "2023-08-21T08:35:04.801Z",
+        "invitee_id": "user_entity_pk",
+        "inviter_id": "user_entity_pk",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "93ab537b-6134-47ee-9c46-8b2dca35504d",
+        "status": "Cancelled",
+        "created_at": "2023-08-21T07:14:41.925Z",
+        "updated_at": "2023-08-21T09:10:00.900Z",
+        "invitee_id": "user_entity_pk",
+        "inviter_id": "user_entity_pk",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "chat": [
+      {
+        "id": "b81abe14-ccfb-4757-8afe-0277b33a04c9",
+        "title": "General Discussion",
+        "created_at": "2023-08-20T22:12:50.293Z",
+        "updated_at": "2023-08-21T07:00:41.119Z",
+        "model_id": "f06ab7ad-d910-4d27-918b-581fc6d6e52f",
+        "organization_id": "main_entity_pk",
+        "role_id": "2980e8a6-f700-45c1-a841-6d1a738ed325",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "76389bb2-960d-469e-8da2-0a27c031333b",
+        "title": "Project Planning",
+        "created_at": "2023-08-21T07:00:19.027Z",
+        "updated_at": "2023-08-20T11:16:28.246Z",
+        "model_id": "35b5b984-37db-4d49-b5cd-8b0d56c1a741",
+        "organization_id": "main_entity_pk",
+        "role_id": "18d0999e-0eee-4d23-86e5-073989a64c3b",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f0da6703-50b7-437c-b91d-4479350c9e5b",
+        "title": "Team Collaboration",
+        "created_at": "2023-08-21T04:57:16.044Z",
+        "updated_at": "2023-08-21T07:16:19.645Z",
+        "model_id": "f3b999a4-ca5e-44f3-b6ad-4ea56ce32ee5",
+        "organization_id": "main_entity_pk",
+        "role_id": "e536046a-8343-451f-aa5e-4dcbd3b8946a",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a26a2cf8-5a91-40ed-ae38-b9742185c5b0",
+        "title": "Feedback and Suggestions",
+        "created_at": "2023-08-21T00:14:49.567Z",
+        "updated_at": "2023-08-21T01:16:15.460Z",
+        "model_id": "f3b999a4-ca5e-44f3-b6ad-4ea56ce32ee5",
+        "organization_id": "main_entity_pk",
+        "role_id": "2ac41424-5a55-47aa-89f3-394dd9a8107c",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3df0b898-3ea5-49c4-88dd-bb7c3ad23dea",
+        "title": "Announcements",
+        "created_at": "2023-08-20T22:07:33.504Z",
+        "updated_at": "2023-08-21T10:08:00.159Z",
+        "model_id": "f06ab7ad-d910-4d27-918b-581fc6d6e52f",
+        "organization_id": "main_entity_pk",
+        "role_id": "2ac41424-5a55-47aa-89f3-394dd9a8107c",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "message": [
+      {
+        "id": "1692cbcc-21dd-42e8-a658-5f491b81d96b",
+        "content": "Hello, how are you?",
+        "created_at": "2023-08-20T19:47:55.536Z",
+        "updated_at": "2023-08-21T06:44:05.485Z",
+        "chat_id": "a26a2cf8-5a91-40ed-ae38-b9742185c5b0",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4c3bf5be-d624-4e25-90d8-8f11bd59ace2",
+        "content": "I need your assistance.",
+        "created_at": "2023-08-20T20:09:50.053Z",
+        "updated_at": "2023-08-21T06:26:18.883Z",
+        "chat_id": "b81abe14-ccfb-4757-8afe-0277b33a04c9",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2740b5f2-616b-4068-bac9-3357fdff1b7f",
+        "content": "Please review the attached document.",
+        "created_at": "2023-08-21T08:05:46.879Z",
+        "updated_at": "2023-08-21T01:02:21.802Z",
+        "chat_id": "3df0b898-3ea5-49c4-88dd-bb7c3ad23dea",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ffbaddb5-747e-4e43-9537-50eb90c5f325",
+        "content": "Thank you for your support.",
+        "created_at": "2023-08-21T06:14:09.143Z",
+        "updated_at": "2023-08-20T18:49:58.590Z",
+        "chat_id": "76389bb2-960d-469e-8da2-0a27c031333b",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d5198bc1-f022-4528-b6ce-27a824c032aa",
+        "content": "Let's schedule a meeting.",
+        "created_at": "2023-08-20T15:57:20.256Z",
+        "updated_at": "2023-08-21T09:30:04.106Z",
+        "chat_id": "76389bb2-960d-469e-8da2-0a27c031333b",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "444186bb-f579-4e1b-9e12-cc098e70b433",
+        "email": "Jacey.Wisoky3@gmail.com",
+        "firstName": "Ressie",
+        "lastName": "Schuster",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1070.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "14c0f67a-4263-4fd2-99b3-d6620206ef86",
+        "email": "Armando_Will@hotmail.com",
+        "firstName": "Dane",
+        "lastName": "Barton",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/61050552",
+        "tenantId": null
+      },
+      {
+        "reference": "f478393d-b946-4a15-8a8e-21db3f38d1cd",
+        "email": "Luz.Spencer-Leffler17@hotmail.com",
+        "firstName": "Beatrice",
+        "lastName": "Von",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/86866270",
+        "tenantId": null
+      },
+      {
+        "reference": "850e5d94-fa89-47fe-8f37-1f0015948db5",
+        "email": "Jalyn38@gmail.com",
+        "firstName": "Michale",
+        "lastName": "Bergnaum",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/24127813",
+        "tenantId": null
+      },
+      {
+        "reference": "1e089508-4e64-4ff5-bc12-0e91621cb376",
+        "email": "Edison48@yahoo.com",
+        "firstName": "Ilene",
+        "lastName": "Hartmann",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/770.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "role": [
+      {
+        "id": "718f766d-1538-4d0e-84f9-e2c643bdd8a3",
+        "created_at": "2023-08-21T09:16:28.896Z",
+        "updated_at": "2023-08-21T08:34:14.897Z",
+        "name": "Admin",
+        "description": "Administrator role",
+        "active": true
+      },
+      {
+        "id": "acc1d624-9988-4cc3-b4a3-b350853ea7f0",
+        "created_at": "2023-08-21T06:05:54.594Z",
+        "updated_at": "2023-08-20T21:29:50.650Z",
+        "name": "Manager",
+        "description": "Manager role",
+        "active": true
+      },
+      {
+        "id": "9ace0d4d-3dbf-45c6-911f-03c52180983e",
+        "created_at": "2023-08-20T13:16:32.903Z",
+        "updated_at": "2023-08-20T23:51:11.131Z",
+        "name": "Employee",
+        "description": "Employee role",
+        "active": true
+      },
+      {
+        "id": "8f65b129-44c3-44d0-9e8d-bafafef43858",
+        "created_at": "2023-08-21T08:08:31.241Z",
+        "updated_at": "2023-08-21T09:22:43.840Z",
+        "name": "Supervisor",
+        "description": "Supervisor role",
+        "active": true
+      },
+      {
+        "id": "1868dd17-2795-4dda-b359-6e6412f0a8a1",
+        "created_at": "2023-08-21T08:25:10.092Z",
+        "updated_at": "2023-08-21T05:48:18.892Z",
+        "name": "Team Lead",
+        "description": "Team Lead role",
+        "active": false
+      }
+    ],
+    "model": [
+      {
+        "id": "bfbe0cba-4982-4442-8f48-08c62c439681",
+        "created_at": "2023-08-20T14:59:55.078Z",
+        "updated_at": "2023-08-21T01:57:44.322Z",
+        "name": "Model A",
+        "active": true
+      },
+      {
+        "id": "cdd4e4f8-8136-4649-8888-b5e51b04795a",
+        "created_at": "2023-08-20T16:57:31.101Z",
+        "updated_at": "2023-08-20T13:28:30.586Z",
+        "name": "Model B",
+        "active": false
+      },
+      {
+        "id": "c487f7d7-560a-4250-a295-07bf9731de3a",
+        "created_at": "2023-08-21T00:52:11.479Z",
+        "updated_at": "2023-08-20T19:41:11.642Z",
+        "name": "Model C",
+        "active": true
+      },
+      {
+        "id": "ef400eac-a8c1-4115-ae72-bf5efe0674a2",
+        "created_at": "2023-08-21T02:43:07.108Z",
+        "updated_at": "2023-08-20T20:21:09.838Z",
+        "name": "Model D",
+        "active": true
+      },
+      {
+        "id": "d979b752-1594-4eff-8d6a-938e05f20520",
+        "created_at": "2023-08-20T19:39:22.139Z",
+        "updated_at": "2023-08-21T03:12:45.432Z",
+        "name": "Model E",
+        "active": true
+      }
+    ],
+    "invitation": [
+      {
+        "id": "61ef2733-86ca-4cb2-8672-43da3c9534d8",
+        "status": "Pending",
+        "created_at": "2023-08-21T01:12:44.687Z",
+        "updated_at": "2023-08-21T07:51:11.975Z",
+        "invitee_id": "user_entity_pk",
+        "inviter_id": "user_entity_pk",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "f0ede9fe-4182-4fbe-8b90-35df79d2b053",
+        "status": "Accepted",
+        "created_at": "2023-08-20T23:52:49.677Z",
+        "updated_at": "2023-08-20T14:09:01.365Z",
+        "invitee_id": "user_entity_pk",
+        "inviter_id": "user_entity_pk",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "ffd12ab0-96e5-4eb1-bd9b-bda87e7c419c",
+        "status": "Declined",
+        "created_at": "2023-08-20T13:43:58.486Z",
+        "updated_at": "2023-08-21T06:52:27.370Z",
+        "invitee_id": "user_entity_pk",
+        "inviter_id": "user_entity_pk",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "985cabc3-7c09-40e8-a36b-ccd7f532b8c0",
+        "status": "Expired",
+        "created_at": "2023-08-21T05:22:24.586Z",
+        "updated_at": "2023-08-21T10:41:21.807Z",
+        "invitee_id": "user_entity_pk",
+        "inviter_id": "user_entity_pk",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "c4ce3660-aff1-4316-a9d5-42164f463e96",
+        "status": "Cancelled",
+        "created_at": "2023-08-20T16:41:49.538Z",
+        "updated_at": "2023-08-21T06:56:35.267Z",
+        "invitee_id": "user_entity_pk",
+        "inviter_id": "user_entity_pk",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "chat": [
+      {
+        "id": "d7664f5a-c4df-498e-b55e-6ade206767cf",
+        "title": "Project Discussion",
+        "created_at": "2023-08-21T03:59:10.386Z",
+        "updated_at": "2023-08-21T10:32:32.147Z",
+        "model_id": "ef400eac-a8c1-4115-ae72-bf5efe0674a2",
+        "organization_id": "main_entity_pk",
+        "role_id": "9ace0d4d-3dbf-45c6-911f-03c52180983e",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d7b1ff42-e045-446f-9cd5-a561467fbe1c",
+        "title": "Team Meeting",
+        "created_at": "2023-08-21T01:23:21.316Z",
+        "updated_at": "2023-08-20T11:53:15.947Z",
+        "model_id": "bfbe0cba-4982-4442-8f48-08c62c439681",
+        "organization_id": "main_entity_pk",
+        "role_id": "9ace0d4d-3dbf-45c6-911f-03c52180983e",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4731c9e7-e8ef-47a9-a73e-8044c363e708",
+        "title": "Sales Call",
+        "created_at": "2023-08-21T03:05:03.583Z",
+        "updated_at": "2023-08-21T05:05:49.753Z",
+        "model_id": "c487f7d7-560a-4250-a295-07bf9731de3a",
+        "organization_id": "main_entity_pk",
+        "role_id": "9ace0d4d-3dbf-45c6-911f-03c52180983e",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f0614c11-ecfe-403e-81b0-05b1688ce044",
+        "title": "Marketing Strategy",
+        "created_at": "2023-08-21T05:28:46.988Z",
+        "updated_at": "2023-08-21T06:38:52.289Z",
+        "model_id": "d979b752-1594-4eff-8d6a-938e05f20520",
+        "organization_id": "main_entity_pk",
+        "role_id": "718f766d-1538-4d0e-84f9-e2c643bdd8a3",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "70925a85-04eb-43d8-8403-d2f05a51b1fb",
+        "title": "Product Launch",
+        "created_at": "2023-08-20T20:16:51.577Z",
+        "updated_at": "2023-08-20T16:09:44.528Z",
+        "model_id": "d979b752-1594-4eff-8d6a-938e05f20520",
+        "organization_id": "main_entity_pk",
+        "role_id": "9ace0d4d-3dbf-45c6-911f-03c52180983e",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "message": [
+      {
+        "id": "afd65728-3990-4452-9527-641fdd56b83f",
+        "content": "Hello",
+        "created_at": "2023-08-20T14:24:44.448Z",
+        "updated_at": "2023-08-21T09:26:40.130Z",
+        "chat_id": "f0614c11-ecfe-403e-81b0-05b1688ce044",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "abbae1a5-2b6a-4596-9075-6921512b1b1d",
+        "content": "How are you?",
+        "created_at": "2023-08-21T09:51:19.751Z",
+        "updated_at": "2023-08-20T19:15:35.845Z",
+        "chat_id": "d7b1ff42-e045-446f-9cd5-a561467fbe1c",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0edd2c1f-6573-4195-a2ba-be46cfbe23a0",
+        "content": "Nice to meet you",
+        "created_at": "2023-08-21T07:40:52.977Z",
+        "updated_at": "2023-08-20T12:01:09.794Z",
+        "chat_id": "d7b1ff42-e045-446f-9cd5-a561467fbe1c",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2c167df2-ab1a-4446-9b29-afabae11d9b5",
+        "content": "Thank you",
+        "created_at": "2023-08-20T17:37:06.304Z",
+        "updated_at": "2023-08-20T21:55:27.366Z",
+        "chat_id": "d7664f5a-c4df-498e-b55e-6ade206767cf",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0577abe3-3c17-4405-b11b-7a52ad023b12",
+        "content": "Have a great day",
+        "created_at": "2023-08-21T07:20:59.046Z",
+        "updated_at": "2023-08-21T00:40:43.389Z",
+        "chat_id": "d7b1ff42-e045-446f-9cd5-a561467fbe1c",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "79474585-1436-45c8-a583-6ba1842d23c7",
+        "email": "Mabelle.Leffler39@gmail.com",
+        "firstName": "Mina",
+        "lastName": "Bernier",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1091.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "65c2c7e6-c112-47f4-94ca-eee989865573",
+        "email": "Greyson_Haag@yahoo.com",
+        "firstName": "Julian",
+        "lastName": "Labadie",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/624.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "0b27720f-eefa-44fb-b042-84167e5b83bd",
+        "email": "Thea81@yahoo.com",
+        "firstName": "John",
+        "lastName": "Treutel",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/480.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "47d1a87c-7c66-4eca-a180-6fd734c542b1",
+        "email": "Ozella_Blanda@hotmail.com",
+        "firstName": "Billie",
+        "lastName": "Hauck",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/821.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "1a43fd1e-c35f-458a-afa3-936ff628cea4",
+        "email": "Adele_Huels93@gmail.com",
+        "firstName": "Pat",
+        "lastName": "Gulgowski",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/14385144",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "role": [
+      {
+        "id": "dfe3e6cd-bc12-49e5-8778-892266edc7b2",
+        "created_at": "2023-08-21T02:42:43.421Z",
+        "updated_at": "2023-08-20T17:03:15.657Z",
+        "name": "Admin",
+        "description": "Administrator role",
+        "active": false
+      },
+      {
+        "id": "1d7caa26-9320-4bf7-be27-16b458f12a89",
+        "created_at": "2023-08-20T23:18:56.911Z",
+        "updated_at": "2023-08-20T13:17:04.028Z",
+        "name": "Manager",
+        "description": "Manager role",
+        "active": false
+      },
+      {
+        "id": "72048685-208e-40e5-94de-1c846707fca6",
+        "created_at": "2023-08-21T01:05:54.392Z",
+        "updated_at": "2023-08-21T08:24:25.649Z",
+        "name": "Employee",
+        "description": "Employee role",
+        "active": false
+      },
+      {
+        "id": "440deb5f-643d-4486-92a5-6d8ef13fced4",
+        "created_at": "2023-08-21T03:14:58.332Z",
+        "updated_at": "2023-08-20T20:04:34.043Z",
+        "name": "Supervisor",
+        "description": "Supervisor role",
+        "active": true
+      },
+      {
+        "id": "838dcfc9-3e9c-43bd-924b-013e62480321",
+        "created_at": "2023-08-20T22:24:42.559Z",
+        "updated_at": "2023-08-21T07:35:58.190Z",
+        "name": "Team Lead",
+        "description": "Team Lead role",
+        "active": true
+      }
+    ],
+    "model": [
+      {
+        "id": "fefc516d-8175-4ecd-9f6a-1d7ed094b23f",
+        "created_at": "2023-08-20T19:05:57.645Z",
+        "updated_at": "2023-08-20T23:08:30.600Z",
+        "name": "Model A",
+        "active": false
+      },
+      {
+        "id": "c446d3f0-0eec-4808-9695-8ed93c240631",
+        "created_at": "2023-08-21T10:13:41.533Z",
+        "updated_at": "2023-08-20T16:27:10.935Z",
+        "name": "Model B",
+        "active": false
+      },
+      {
+        "id": "d203895b-2d99-4aa6-8a97-b36299239923",
+        "created_at": "2023-08-21T00:25:41.395Z",
+        "updated_at": "2023-08-20T13:14:27.097Z",
+        "name": "Model C",
+        "active": true
+      },
+      {
+        "id": "ba40828f-b859-4a77-9731-d76c53feac3a",
+        "created_at": "2023-08-20T19:13:12.777Z",
+        "updated_at": "2023-08-21T06:01:08.943Z",
+        "name": "Model D",
+        "active": false
+      },
+      {
+        "id": "ccbf7164-58f1-4a1a-aae4-006fcd5fb9e8",
+        "created_at": "2023-08-20T16:40:18.309Z",
+        "updated_at": "2023-08-20T14:09:27.513Z",
+        "name": "Model E",
+        "active": true
+      }
+    ],
+    "invitation": [
+      {
+        "id": "53fcdd57-d3cb-47ca-b5f1-11ed91922954",
+        "status": "Pending",
+        "created_at": "2023-08-20T11:30:06.287Z",
+        "updated_at": "2023-08-20T12:06:46.865Z",
+        "invitee_id": "user_entity_pk",
+        "inviter_id": "user_entity_pk",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "d9c2aa94-c0bf-49a2-bf9b-4e2234031a29",
+        "status": "Accepted",
+        "created_at": "2023-08-20T19:09:13.610Z",
+        "updated_at": "2023-08-21T05:18:40.332Z",
+        "invitee_id": "user_entity_pk",
+        "inviter_id": "user_entity_pk",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "4a3f48a0-c394-413b-8731-2aec43830ca8",
+        "status": "Declined",
+        "created_at": "2023-08-21T08:07:27.262Z",
+        "updated_at": "2023-08-21T07:35:18.554Z",
+        "invitee_id": "user_entity_pk",
+        "inviter_id": "user_entity_pk",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "378a4e32-0fb4-426a-9e2d-c4822695c7b2",
+        "status": "Expired",
+        "created_at": "2023-08-20T20:33:03.822Z",
+        "updated_at": "2023-08-20T16:27:51.899Z",
+        "invitee_id": "user_entity_pk",
+        "inviter_id": "user_entity_pk",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "90fa1deb-0919-4b26-b904-361fb021e6f4",
+        "status": "Cancelled",
+        "created_at": "2023-08-21T10:16:57.133Z",
+        "updated_at": "2023-08-20T15:52:09.101Z",
+        "invitee_id": "user_entity_pk",
+        "inviter_id": "user_entity_pk",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "chat": [
+      {
+        "id": "bd5f51df-8f4c-4d90-9285-a539ea586460",
+        "title": "Project Discussion",
+        "created_at": "2023-08-20T13:13:22.194Z",
+        "updated_at": "2023-08-20T23:00:05.164Z",
+        "model_id": "c446d3f0-0eec-4808-9695-8ed93c240631",
+        "organization_id": "main_entity_pk",
+        "role_id": "72048685-208e-40e5-94de-1c846707fca6",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8ec1a386-b7ed-484f-b29b-7a88e8afb0cd",
+        "title": "Team Meeting",
+        "created_at": "2023-08-20T14:58:55.209Z",
+        "updated_at": "2023-08-20T13:01:03.273Z",
+        "model_id": "ba40828f-b859-4a77-9731-d76c53feac3a",
+        "organization_id": "main_entity_pk",
+        "role_id": "838dcfc9-3e9c-43bd-924b-013e62480321",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b9132ee5-5709-4cce-bd15-58266b33342a",
+        "title": "Brainstorming Session",
+        "created_at": "2023-08-20T13:35:54.425Z",
+        "updated_at": "2023-08-21T05:55:12.504Z",
+        "model_id": "ccbf7164-58f1-4a1a-aae4-006fcd5fb9e8",
+        "organization_id": "main_entity_pk",
+        "role_id": "72048685-208e-40e5-94de-1c846707fca6",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "cd6ea2b4-77de-4621-9f1a-8eca68c895be",
+        "title": "Client Call",
+        "created_at": "2023-08-20T19:03:09.768Z",
+        "updated_at": "2023-08-21T02:34:12.533Z",
+        "model_id": "d203895b-2d99-4aa6-8a97-b36299239923",
+        "organization_id": "main_entity_pk",
+        "role_id": "440deb5f-643d-4486-92a5-6d8ef13fced4",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "dea3ab6b-1e31-460c-ba5c-19fa22dd2997",
+        "title": "Training Session",
+        "created_at": "2023-08-21T10:43:46.314Z",
+        "updated_at": "2023-08-21T06:52:17.956Z",
+        "model_id": "c446d3f0-0eec-4808-9695-8ed93c240631",
+        "organization_id": "main_entity_pk",
+        "role_id": "1d7caa26-9320-4bf7-be27-16b458f12a89",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "message": [
+      {
+        "id": "5c6ecb8d-bc62-4010-9b87-31e796b05b41",
+        "content": "Hello, how are you?",
+        "created_at": "2023-08-20T18:36:29.461Z",
+        "updated_at": "2023-08-21T09:54:19.282Z",
+        "chat_id": "dea3ab6b-1e31-460c-ba5c-19fa22dd2997",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8866ad34-474f-48e7-87c7-41d1f5223146",
+        "content": "I have attached the file.",
+        "created_at": "2023-08-20T21:17:51.081Z",
+        "updated_at": "2023-08-21T00:57:38.692Z",
+        "chat_id": "b9132ee5-5709-4cce-bd15-58266b33342a",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "920f20a3-f8d3-422a-9d91-8c1a229721c8",
+        "content": "Let's meet tomorrow.",
+        "created_at": "2023-08-21T08:54:47.602Z",
+        "updated_at": "2023-08-20T20:21:20.035Z",
+        "chat_id": "cd6ea2b4-77de-4621-9f1a-8eca68c895be",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "58a405b2-303f-406a-9fcc-0a2b03751762",
+        "content": "Please review the document.",
+        "created_at": "2023-08-20T16:25:17.604Z",
+        "updated_at": "2023-08-21T05:20:47.688Z",
+        "chat_id": "dea3ab6b-1e31-460c-ba5c-19fa22dd2997",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "41d4e730-6c4f-4864-bdb2-4d7cfd4cae7b",
+        "content": "Great job!",
+        "created_at": "2023-08-20T17:36:15.244Z",
+        "updated_at": "2023-08-21T06:34:54.367Z",
+        "chat_id": "bd5f51df-8f4c-4d90-9285-a539ea586460",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "e9a34113-9fed-4623-ab1c-f452b4c4e382",
+        "email": "Xavier.Larson39@gmail.com",
+        "firstName": "Candido",
+        "lastName": "Leannon",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/62172002",
+        "tenantId": null
+      },
+      {
+        "reference": "77fe47e6-d81b-4b8d-b42d-ad1995120ad9",
+        "email": "Carley3@yahoo.com",
+        "firstName": "Edwardo",
+        "lastName": "Fritsch",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/92.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "08d88bf0-ae9b-4e3c-985d-c697ab58ea55",
+        "email": "Alek.Renner99@gmail.com",
+        "firstName": "Vesta",
+        "lastName": "Lemke",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/215.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "403add9e-d3ec-4a2b-99be-03e97969266d",
+        "email": "Vidal_Schiller67@gmail.com",
+        "firstName": "Jerry",
+        "lastName": "Rutherford",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1086.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "dd74e0bd-7d6e-466c-bee0-a088fa05f929",
+        "email": "Camryn.Konopelski@gmail.com",
+        "firstName": "Dayna",
+        "lastName": "Trantow",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/573.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "role": [
+      {
+        "id": "f272b6f0-1cd2-4b3a-bd7e-ae274247008f",
+        "created_at": "2023-08-21T03:03:14.258Z",
+        "updated_at": "2023-08-20T20:15:59.884Z",
+        "name": "Admin",
+        "description": "Administrator role",
+        "active": true
+      },
+      {
+        "id": "e7dd1243-cac1-4922-b7b7-fa13dc856677",
+        "created_at": "2023-08-20T13:58:35.790Z",
+        "updated_at": "2023-08-20T18:59:39.391Z",
+        "name": "Manager",
+        "description": "Manager role",
+        "active": false
+      },
+      {
+        "id": "1fc0b7e7-9f23-4ef2-8793-69d98bff92c3",
+        "created_at": "2023-08-21T03:41:31.122Z",
+        "updated_at": "2023-08-21T00:22:43.228Z",
+        "name": "Employee",
+        "description": "Employee role",
+        "active": false
+      },
+      {
+        "id": "73a5b57e-f999-491e-a39f-4481ea73b313",
+        "created_at": "2023-08-21T02:04:15.057Z",
+        "updated_at": "2023-08-21T06:19:30.977Z",
+        "name": "Supervisor",
+        "description": "Supervisor role",
+        "active": false
+      },
+      {
+        "id": "6ddad451-0934-4616-9c3e-2fdc4b0e73f8",
+        "created_at": "2023-08-21T10:29:50.895Z",
+        "updated_at": "2023-08-20T14:16:04.620Z",
+        "name": "Analyst",
+        "description": "Analyst role",
+        "active": false
+      }
+    ],
+    "model": [
+      {
+        "id": "f38e509c-d073-4180-b323-ad25d7acc53b",
+        "created_at": "2023-08-21T05:12:03.662Z",
+        "updated_at": "2023-08-20T20:35:10.436Z",
+        "name": "Model A",
+        "active": false
+      },
+      {
+        "id": "7ca9c269-3cf2-450e-990d-9bf929f1f2b6",
+        "created_at": "2023-08-20T17:14:01.077Z",
+        "updated_at": "2023-08-21T10:48:53.305Z",
+        "name": "Model B",
+        "active": true
+      },
+      {
+        "id": "c94f987c-61eb-482c-84cb-ab92bb4aec71",
+        "created_at": "2023-08-20T16:12:05.089Z",
+        "updated_at": "2023-08-21T09:06:20.669Z",
+        "name": "Model C",
+        "active": false
+      },
+      {
+        "id": "4721f336-2a09-4a7e-b7a9-9db161f29ef0",
+        "created_at": "2023-08-20T12:10:57.153Z",
+        "updated_at": "2023-08-20T23:48:01.054Z",
+        "name": "Model D",
+        "active": false
+      },
+      {
+        "id": "cfdc4ef8-2364-4b7f-bc67-37ac9ea7dc20",
+        "created_at": "2023-08-20T15:11:19.017Z",
+        "updated_at": "2023-08-20T23:59:11.860Z",
+        "name": "Model E",
+        "active": false
+      }
+    ],
+    "invitation": [
+      {
+        "id": "30aa1f6c-ae17-4fee-bd6d-4b8ee5fb7075",
+        "status": "Pending",
+        "created_at": "2023-08-21T08:58:58.514Z",
+        "updated_at": "2023-08-21T07:42:44.463Z",
+        "invitee_id": "user_entity_pk",
+        "inviter_id": "user_entity_pk",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "f9f0bb36-3cda-4678-b8f3-10ee6cf03ffd",
+        "status": "Accepted",
+        "created_at": "2023-08-20T15:03:53.213Z",
+        "updated_at": "2023-08-20T22:27:02.257Z",
+        "invitee_id": "user_entity_pk",
+        "inviter_id": "user_entity_pk",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "29454fc5-d87f-44c3-92a0-c2e6b183a1d2",
+        "status": "Declined",
+        "created_at": "2023-08-20T18:07:06.571Z",
+        "updated_at": "2023-08-21T06:57:22.409Z",
+        "invitee_id": "user_entity_pk",
+        "inviter_id": "user_entity_pk",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "1fa036bb-734a-48bb-89bc-e239ae053aa0",
+        "status": "Expired",
+        "created_at": "2023-08-21T05:15:32.894Z",
+        "updated_at": "2023-08-20T18:28:27.736Z",
+        "invitee_id": "user_entity_pk",
+        "inviter_id": "user_entity_pk",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "09210b9c-7356-4f03-8981-e39536422699",
+        "status": "Cancelled",
+        "created_at": "2023-08-21T06:50:26.801Z",
+        "updated_at": "2023-08-21T04:09:30.416Z",
+        "invitee_id": "user_entity_pk",
+        "inviter_id": "user_entity_pk",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "chat": [
+      {
+        "id": "2a229222-c64f-48df-9d45-31182806050f",
+        "title": "General Discussion",
+        "created_at": "2023-08-20T15:42:58.392Z",
+        "updated_at": "2023-08-20T21:01:42.221Z",
+        "model_id": "7ca9c269-3cf2-450e-990d-9bf929f1f2b6",
+        "organization_id": "main_entity_pk",
+        "role_id": "6ddad451-0934-4616-9c3e-2fdc4b0e73f8",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2084e3e5-6391-4cb1-985b-d501df582713",
+        "title": "Project Planning",
+        "created_at": "2023-08-21T06:05:06.817Z",
+        "updated_at": "2023-08-21T01:04:39.369Z",
+        "model_id": "f38e509c-d073-4180-b323-ad25d7acc53b",
+        "organization_id": "main_entity_pk",
+        "role_id": "1fc0b7e7-9f23-4ef2-8793-69d98bff92c3",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "63f910bc-e492-4633-8ba6-3b4dd32ec26d",
+        "title": "Marketing Strategy",
+        "created_at": "2023-08-21T02:36:55.375Z",
+        "updated_at": "2023-08-21T10:43:33.209Z",
+        "model_id": "cfdc4ef8-2364-4b7f-bc67-37ac9ea7dc20",
+        "organization_id": "main_entity_pk",
+        "role_id": "e7dd1243-cac1-4922-b7b7-fa13dc856677",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8681f429-6f7d-47bd-b299-05b1dbf6eaaf",
+        "title": "Team Collaboration",
+        "created_at": "2023-08-20T20:39:30.041Z",
+        "updated_at": "2023-08-20T13:49:15.278Z",
+        "model_id": "f38e509c-d073-4180-b323-ad25d7acc53b",
+        "organization_id": "main_entity_pk",
+        "role_id": "73a5b57e-f999-491e-a39f-4481ea73b313",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0a8fef81-4c9c-4ddd-9b94-9b26926abebe",
+        "title": "Product Feedback",
+        "created_at": "2023-08-20T23:05:49.059Z",
+        "updated_at": "2023-08-20T20:28:05.330Z",
+        "model_id": "4721f336-2a09-4a7e-b7a9-9db161f29ef0",
+        "organization_id": "main_entity_pk",
+        "role_id": "f272b6f0-1cd2-4b3a-bd7e-ae274247008f",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "message": [
+      {
+        "id": "0ee6ab25-5dce-423c-8e9a-ac43c5362807",
+        "content": "Hello, how are you?",
+        "created_at": "2023-08-20T14:05:04.029Z",
+        "updated_at": "2023-08-21T07:20:57.044Z",
+        "chat_id": "2084e3e5-6391-4cb1-985b-d501df582713",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7c0267bf-0b45-4b51-95b0-2aef7fb9fa29",
+        "content": "Please review the attached document.",
+        "created_at": "2023-08-21T09:29:48.594Z",
+        "updated_at": "2023-08-21T05:10:14.497Z",
+        "chat_id": "2a229222-c64f-48df-9d45-31182806050f",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2cd5bc10-f1e0-448c-9c4a-6876dfbd5f87",
+        "content": "Let's meet at 2 PM.",
+        "created_at": "2023-08-21T09:44:07.205Z",
+        "updated_at": "2023-08-20T15:43:06.770Z",
+        "chat_id": "2a229222-c64f-48df-9d45-31182806050f",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e080ffa6-9ef8-42d5-b0f7-ee1f48bc8548",
+        "content": "I have a question.",
+        "created_at": "2023-08-20T23:35:48.518Z",
+        "updated_at": "2023-08-20T13:49:56.213Z",
+        "chat_id": "63f910bc-e492-4633-8ba6-3b4dd32ec26d",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2bf31a4e-5f28-47d2-aa3a-b534912e0cef",
+        "content": "Great job on the presentation!",
+        "created_at": "2023-08-21T10:12:01.477Z",
+        "updated_at": "2023-08-21T10:23:08.906Z",
+        "chat_id": "8681f429-6f7d-47bd-b299-05b1dbf6eaaf",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "493c0622-ce40-40b6-95d6-6b1fe47cc2bb",
+        "email": "Giovanna83@yahoo.com",
+        "firstName": "Marvin",
+        "lastName": "Muller",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/3465476",
+        "tenantId": null
+      },
+      {
+        "reference": "4ba64251-387a-4bb0-8017-9ba26aeae4a9",
+        "email": "Terry.Runte@hotmail.com",
+        "firstName": "Kailee",
+        "lastName": "Welch",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1094.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "4cb81c85-b9b8-48cf-b80f-1fb949e94f38",
+        "email": "Josianne.Tillman72@yahoo.com",
+        "firstName": "Ardith",
+        "lastName": "Nader",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1201.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "ad2578fd-729f-41b1-95cd-fbdb187a28a7",
+        "email": "Eda22@gmail.com",
+        "firstName": "Dave",
+        "lastName": "Kling",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/577.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "7be8441a-ea3e-4492-9e08-9bfc8eb7e4c5",
+        "email": "Audrey17@gmail.com",
+        "firstName": "Jordan",
+        "lastName": "Hermiston",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/10667592",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "role": [
+      {
+        "id": "a154b621-ba03-43ef-982e-9a978ef758f5",
+        "created_at": "2023-08-20T11:16:53.192Z",
+        "updated_at": "2023-08-20T19:31:42.856Z",
+        "name": "Admin",
+        "description": "Administrator role",
+        "active": true
+      },
+      {
+        "id": "bba1a9f7-b977-4b30-8b76-8933da68af8f",
+        "created_at": "2023-08-20T15:08:06.395Z",
+        "updated_at": "2023-08-21T00:50:58.696Z",
+        "name": "Manager",
+        "description": "Manager role",
+        "active": false
+      },
+      {
+        "id": "0fa1c79a-ad8e-4b7d-8e40-47edaed68866",
+        "created_at": "2023-08-20T18:54:47.929Z",
+        "updated_at": "2023-08-21T10:14:16.565Z",
+        "name": "Supervisor",
+        "description": "Supervisor role",
+        "active": false
+      },
+      {
+        "id": "c397bbca-37c4-4fa6-a3c3-a817e4d546dd",
+        "created_at": "2023-08-20T14:04:15.469Z",
+        "updated_at": "2023-08-21T10:38:49.281Z",
+        "name": "Employee",
+        "description": "Employee role",
+        "active": false
+      },
+      {
+        "id": "32563b39-acba-4810-b9f1-ba3c8561e10e",
+        "created_at": "2023-08-21T10:12:14.699Z",
+        "updated_at": "2023-08-20T20:08:53.702Z",
+        "name": "Guest",
+        "description": "Guest role",
+        "active": false
+      }
+    ],
+    "model": [
+      {
+        "id": "8dfeca16-af9d-4a79-992c-31deffb8d0ed",
+        "created_at": "2023-08-20T22:07:43.975Z",
+        "updated_at": "2023-08-21T05:23:51.878Z",
+        "name": "Model A",
+        "active": false
+      },
+      {
+        "id": "63013664-40d4-47ae-a041-4d834d2abbc2",
+        "created_at": "2023-08-20T11:24:40.795Z",
+        "updated_at": "2023-08-21T02:43:23.323Z",
+        "name": "Model B",
+        "active": true
+      },
+      {
+        "id": "f7e44884-b070-4409-8452-b4d6c5d1e54b",
+        "created_at": "2023-08-20T11:03:44.922Z",
+        "updated_at": "2023-08-20T22:04:20.474Z",
+        "name": "Model C",
+        "active": false
+      },
+      {
+        "id": "4ec94f4b-9d74-4de6-8f10-3225d2c43ab9",
+        "created_at": "2023-08-20T14:56:01.248Z",
+        "updated_at": "2023-08-20T10:57:49.851Z",
+        "name": "Model D",
+        "active": true
+      },
+      {
+        "id": "06b0434d-1fa4-4456-8622-43e64a60652b",
+        "created_at": "2023-08-20T19:56:52.419Z",
+        "updated_at": "2023-08-21T07:37:02.199Z",
+        "name": "Model E",
+        "active": true
+      }
+    ],
+    "invitation": [
+      {
+        "id": "6b55df6a-6b5b-4be7-8250-583e22f1f2d0",
+        "status": "Pending",
+        "created_at": "2023-08-20T17:17:00.721Z",
+        "updated_at": "2023-08-20T20:37:12.052Z",
+        "invitee_id": "user_entity_pk",
+        "inviter_id": "user_entity_pk",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "a3f426b5-d754-4b24-91fb-b3ef6169ad4e",
+        "status": "Accepted",
+        "created_at": "2023-08-20T14:33:11.734Z",
+        "updated_at": "2023-08-21T02:39:24.489Z",
+        "invitee_id": "user_entity_pk",
+        "inviter_id": "user_entity_pk",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "ee37a904-6c0b-40c1-bd74-f690b8951221",
+        "status": "Declined",
+        "created_at": "2023-08-20T19:53:49.635Z",
+        "updated_at": "2023-08-21T05:20:38.605Z",
+        "invitee_id": "user_entity_pk",
+        "inviter_id": "user_entity_pk",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "f10c9c3a-ebb8-4dc6-ba8d-b0d3444444a3",
+        "status": "Expired",
+        "created_at": "2023-08-20T17:21:28.877Z",
+        "updated_at": "2023-08-21T02:52:24.071Z",
+        "invitee_id": "user_entity_pk",
+        "inviter_id": "user_entity_pk",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "350b7a18-c428-4fed-b4c9-e64e2e5ac016",
+        "status": "Cancelled",
+        "created_at": "2023-08-21T06:32:33.877Z",
+        "updated_at": "2023-08-21T02:00:59.705Z",
+        "invitee_id": "user_entity_pk",
+        "inviter_id": "user_entity_pk",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "chat": [
+      {
+        "id": "8371de6e-25c1-4d4b-a9ee-deb9c503bf3b",
+        "title": "General Chat",
+        "created_at": "2023-08-21T00:06:50.561Z",
+        "updated_at": "2023-08-20T17:48:17.494Z",
+        "model_id": "f7e44884-b070-4409-8452-b4d6c5d1e54b",
+        "organization_id": "main_entity_pk",
+        "role_id": "0fa1c79a-ad8e-4b7d-8e40-47edaed68866",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "35d1294f-9b89-4ab4-a9a6-22f7b98616db",
+        "title": "Project Discussion",
+        "created_at": "2023-08-21T00:56:55.514Z",
+        "updated_at": "2023-08-20T14:41:56.872Z",
+        "model_id": "4ec94f4b-9d74-4de6-8f10-3225d2c43ab9",
+        "organization_id": "main_entity_pk",
+        "role_id": "c397bbca-37c4-4fa6-a3c3-a817e4d546dd",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "43f1a4a1-f53b-4a02-8905-39821622cdb2",
+        "title": "Team Meeting",
+        "created_at": "2023-08-20T17:47:20.070Z",
+        "updated_at": "2023-08-20T21:52:21.634Z",
+        "model_id": "f7e44884-b070-4409-8452-b4d6c5d1e54b",
+        "organization_id": "main_entity_pk",
+        "role_id": "0fa1c79a-ad8e-4b7d-8e40-47edaed68866",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d317b684-ebf3-4f97-a548-5cbcf79bf6a6",
+        "title": "Customer Support",
+        "created_at": "2023-08-20T11:03:48.277Z",
+        "updated_at": "2023-08-20T14:07:50.968Z",
+        "model_id": "8dfeca16-af9d-4a79-992c-31deffb8d0ed",
+        "organization_id": "main_entity_pk",
+        "role_id": "bba1a9f7-b977-4b30-8b76-8933da68af8f",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d5e10ccd-73e4-4d58-8111-c84927a4fcbf",
+        "title": "Social Chat",
+        "created_at": "2023-08-21T09:53:44.138Z",
+        "updated_at": "2023-08-20T15:14:45.501Z",
+        "model_id": "06b0434d-1fa4-4456-8622-43e64a60652b",
+        "organization_id": "main_entity_pk",
+        "role_id": "a154b621-ba03-43ef-982e-9a978ef758f5",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "message": [
+      {
+        "id": "cf5c5c26-1b0d-4a87-9f69-22a29be7981c",
+        "content": "Hello, how are you?",
+        "created_at": "2023-08-20T21:45:29.142Z",
+        "updated_at": "2023-08-20T23:21:18.685Z",
+        "chat_id": "d5e10ccd-73e4-4d58-8111-c84927a4fcbf",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1947a0b8-b7ea-46b6-ac94-4bd23462d0bb",
+        "content": "This is a test message",
+        "created_at": "2023-08-20T22:10:08.046Z",
+        "updated_at": "2023-08-21T01:01:47.932Z",
+        "chat_id": "d5e10ccd-73e4-4d58-8111-c84927a4fcbf",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e0c031ac-42a6-48b8-b4d0-0d113065c384",
+        "content": "Please review the attached document",
+        "created_at": "2023-08-21T00:38:39.389Z",
+        "updated_at": "2023-08-21T03:30:21.282Z",
+        "chat_id": "d5e10ccd-73e4-4d58-8111-c84927a4fcbf",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1b7ebc12-f98b-4939-a94b-c21dd3589fb7",
+        "content": "Can we schedule a meeting?",
+        "created_at": "2023-08-21T04:01:31.632Z",
+        "updated_at": "2023-08-20T18:37:35.137Z",
+        "chat_id": "d317b684-ebf3-4f97-a548-5cbcf79bf6a6",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "26b6f74d-37b0-40a6-b341-5d288e556c1a",
+        "content": "Thank you for your assistance",
+        "created_at": "2023-08-20T12:55:27.123Z",
+        "updated_at": "2023-08-20T16:00:48.944Z",
+        "chat_id": "8371de6e-25c1-4d4b-a9ee-deb9c503bf3b",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "c8ca8974-17d3-4577-a167-43c439cba382",
+        "email": "Elta_McDermott59@yahoo.com",
+        "firstName": "Larissa",
+        "lastName": "Emmerich",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/41028921",
+        "tenantId": null
+      },
+      {
+        "reference": "8ddc7ae1-19a7-4688-940b-eabc3248669c",
+        "email": "Keshawn.Little@hotmail.com",
+        "firstName": "Cathryn",
+        "lastName": "Strosin",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/50720941",
+        "tenantId": null
+      },
+      {
+        "reference": "38801f4f-237a-40ab-bb6d-2da1b17007d3",
+        "email": "Santa_Zemlak0@hotmail.com",
+        "firstName": "Justice",
+        "lastName": "Luettgen",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/681.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "76c6322b-4c98-421a-90ad-d129d3c808df",
+        "email": "Rudolph_Okuneva@hotmail.com",
+        "firstName": "Lela",
+        "lastName": "Quigley",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/607.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "3adc6a56-2ccf-4006-9725-a8dea7454090",
+        "email": "Carmella37@yahoo.com",
+        "firstName": "Wava",
+        "lastName": "Effertz",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/593.jpg",
+        "tenantId": null
+      }
+    ]
+  }
+]
